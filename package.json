@@ -1,0 +1,40 @@
+{
+  "name": "unicueonline",
+  "description": "The online version of Unicue, using nextc4.js.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kuyur/unicue-online",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuyur/unicue-online"
+  },
+  "keywords": [
+    "nextc4.js",
+    "unicue",
+    "encoding",
+    "charset"
+  ],
+  "author": {
+    "name": "kuyur",
+    "email": "kuyur@kuyur.info"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.js\" --quiet",
+    "lint:fix": "eslint \"**/*.js\" --quiet --fix",
+    "test": "jest --forceExit --coverage"
+  },
+  "dependencies": {
+    "nextc4.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kuyur/unicue-online/issues"
+  },
+  "license": "MIT"
+}
