@@ -23,7 +23,8 @@
     "test": "jest --forceExit --coverage"
   },
   "dependencies": {
-    "nextc4.js": "^1.0.0"
+    "nextc4.js": "^1.0.3",
+    "vue": "^3.2.21"
   },
   "devDependencies": {
     "eslint": "^8.1.0",
