@@ -33,7 +33,8 @@ var option = {
 var cp1253 = new DecoderMultibyte(option);
 
 var codepoints = cp1253.decode(new Uint8Array([0x41, 0x42, 0x43, 0x80, 0xDC, 0xDD, 0xDE, 0xDF]));
-console.log(utils.toString(codepoints));
+console.log(utils.buffer.toString(codepoints));
 
 var context = loadDefault();
 console.log(context.getDecoderNames());
+console.log(context.getEncoderNames());
